@@ -1,0 +1,50 @@
+.textareaContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: var(--radius-space-xs);
+  font-size: var(--input-fs-xs);
+  color: var(--primary-input-label-color);
+}
+
+.textareaWrapper {
+  position: relative;
+  display: flex;
+}
+
+.textarea {
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--primary-input-border-color);
+  border-radius: var(--space-xxs);
+  font-size: var(--input-fs-xs);
+  outline: none;
+  color: var(--primary-input-text-color);
+  flex-grow: 1;
+}
+
+.textarea:hover,
+.textarea:focus {
+  border-color: var(--primary-input-label-color);
+}
+
+.textareaError {
+  border-color: var(--error-color);
+}
+
+.filled {
+  fill: var(--primary-text-color);
+}
+
+.errorText {
+  position: absolute;
+  bottom: -17px;
+  left: var(--space-xxs);
+  color: var(--error-color);
+  font-size: 12px;
+  margin-top: 4px;
+}

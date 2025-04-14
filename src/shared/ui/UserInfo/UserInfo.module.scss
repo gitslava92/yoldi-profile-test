@@ -1,0 +1,10 @@
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+}

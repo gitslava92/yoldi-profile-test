@@ -1,0 +1,7 @@
+.notFoundPage {
+  font-weight: 600;
+  margin-top: var(--space-xl);
+  &:hover {
+    text-decoration: underline;
+  }
+}

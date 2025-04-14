@@ -1,0 +1,21 @@
+.page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+  .title {
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-lg);
+  }
+
+  .listContainer {
+    max-width: 800px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+      padding: 0 var(--space-md);
+    }
+  }
+}
