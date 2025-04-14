@@ -89,31 +89,26 @@ prettier: Format the code with Prettier
 npm run prettier
 ```
 
-Project Structure
-bash
+Project screenshots
 
-```bash
-|-- index.tsx           # Home page
-|-- profile.tsx         # Profile management page
+main page
 
-/components
-|-- Avatar.tsx          # Avatar component for displaying user avatars
-|-- EditUserForm.tsx    # Form component for editing user details
+![main page](./public/main.jpg)
 
-/features
-|-- auth                # Authentication module
-|-- user                # User-related functionality (profile management)
+login page
 
-/shared
-|-- utils               # Common utility functions
-|-- ui                  # Reusable UI components like buttons, inputs, etc.
+![main page](./public/login.jpg)
 
-/styles
-|-- globals.scss        # Global styles for the app
-|-- Profile.module.scss # Component-specific styles for the Profile page
-```
+sign up page
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+![main page](./public/sign-up.jpg)
+
+profile page
+
+![main page](./public/profile.jpg)
+
+edit profile page
+
+![main page](./public/edit-profile.jpg)
 
 Feel free to customize this README.md as per your project needs.
